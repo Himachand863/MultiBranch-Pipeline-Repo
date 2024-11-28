@@ -22,7 +22,7 @@ node('built-in')
   stage('Continuous Devlivey') 
  {
  // Deploying the Artifacts into the PROD Environment
- sh 'scp /home/ubuntu/.jenkins/workspace/MyPipeline/target/maven-web-app.war ubuntu@172.31.92.51:/var/lib/tomcat9/webapps/PROD.war'
+ sh 'scp /home/ubuntu/.jenkins/workspace/MyPipeline/target/maven-web-app.war ubuntu@172.31.92.51:/var/lib/tomcat9/webapps/himachand.war'
  }
 
 }
