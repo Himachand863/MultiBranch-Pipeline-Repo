@@ -25,4 +25,4 @@ node('built-in')
  sh 'scp /home/ubuntu/.jenkins/workspace/MyPipeline/target/maven-web-app.war ubuntu@172.31.92.51:/var/lib/tomcat9/webapps/PROD.war'
  }
 
-}}
+}
