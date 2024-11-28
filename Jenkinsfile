@@ -3,7 +3,7 @@ node('built-in')
  stage('Continuous Download') 
  {
  // downloading the sourcecode from the GitHub
- git 'https://github.com/Himachand863/MultiBranch-Pipeline-Repo.git'
+ git 'https://github.com/Himachand863/MultiBranch-Pipeline-Repo/tree/child'
  }
  
  stage('Continuous Build') 
