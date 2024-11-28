@@ -22,7 +22,7 @@ node('built-in')
  stage('Continuous Deploy') 
  {
  // Deploying the Artifacts into the QA Environment
- sh 'scp /home/ubuntu/.jenkins/workspace/MyPipeline/target/maven-web-app.war ubuntu@172.31.86.68:/var/lib/tomcat9/webapps/QAENV.war'
+ sh 'scp /home/ubuntu/.jenkins/workspace/MyPipeline/target/maven-web-app.war ubuntu@172.31.86.68:/var/lib/tomcat9/webapps/test.war'
  }
 
 }
